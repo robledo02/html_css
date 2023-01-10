@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>treinanado com imagens</title>
+</head>
+<body>
+    <h1>testando tamanhos de imagens</h1>
+<p>tag para tamanhos</p>
+        <picture>
+           
+          <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="imagem flexivel">
+        </picture>
+        <h1>Reproduzindo audio</h1>
+        <p>vamos aprender a  reproduzir audios em html5</p>
+       <audio preload="metadata" autoplay controls loop> 
+        <source src="midia/podgg.mp3" type="audio/mpeg">
+        <source src="midia/podgg.ogg" type="audio/ogg">
+       </audio>
+       <p>infelizmente seu navegador não carrega audios <a href="midia/podgg.mp3"  download="podgg.mp3">clique aqui para dawloand do arquivo</a></p>
+    
+</body>
+</html>

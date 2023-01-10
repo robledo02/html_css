@@ -1,0 +1,36 @@
+@charset "utf-8";
+:root{
+    --cor0:#AABA9E;
+    --cor1:#B5B8A3;
+    --cor2:#C6B89E;
+    --cor3:#EDD892;
+    --cor4:#FCB97D;
+
+
+
+}
+
+body{
+    background-image: linear-gradient(to right,var(--cor4), var(--cor3));
+}
+article{
+    background-color: white;
+    border: 5px none var(--cor0);
+    padding: 5px;
+    margin: 5px;
+    
+    text-align: justify;
+}
+article > h2 {
+    text-align: center;
+}
+header{
+    background-color: white;
+    border: 5px none var(--cor0);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
+    
+   
+}

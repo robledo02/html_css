@@ -1,0 +1,40 @@
+@charset
+*{font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+ background-image: linear-gradient(to right, #F28705, #F25C05, #F24405);
+}
+main{
+  
+    background-color: white;
+    color: black;
+    width: 900px;
+    padding: 15px;
+    margin: auto;
+}
+h1{
+    
+    color:#F25C05;
+   
+
+}
+h2{
+   color: #F29F05;
+   
+
+    
+
+}
+p{
+   font-size: large;
+    text-align: justify;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: white;
+}
+#main02{
+    font-family: Arial, Helvetica, sans-serif;
+}
